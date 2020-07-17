@@ -14,7 +14,6 @@ class SongForm extends React.Component {
     // Binding event handlers
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    // this.resetState = this.resetState.bind(this);
   }
   //Event handler to track changes in input
   handleChange = (event) => {
